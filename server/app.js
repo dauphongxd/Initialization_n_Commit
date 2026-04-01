@@ -3,7 +3,7 @@ const app = express();
 const port = 5555; // Changed from 3000 to avoid conflicts
 
 app.get('/', (req, res) => {
-  res.send('Server is running!');
+  res.send('Hello from branch A');
 });
 
 app.listen(port, () => {
