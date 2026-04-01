@@ -3,7 +3,7 @@ const app = express();
 const port = 5555; // Changed from 3000 to avoid conflicts
 
 app.get('/', (req, res) => {
-  res.send('Hello from branch A');
+  res.send('Hello from branch A and B - merged');
 });
 
 app.listen(port, () => {
