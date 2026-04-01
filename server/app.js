@@ -11,5 +11,5 @@ app.listen(port, () => {
 });
 
 app.get('/status', (req, res) => {
-  res.send('Status: OK');
+  res.send(`Status: OK - ${new Date().toISOString()}`);
 });
