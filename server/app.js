@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 5555; // Changed from 3000 to avoid conflicts
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Server is running!');
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Server listening on port ${port}`);
 });
